@@ -1,0 +1,771 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"draw",
+				"draw_word\tfunction"
+			],
+			[
+				"get_",
+				"get_object_and_main_color\tfunction"
+			],
+			[
+				"pho",
+				"photo_path"
+			],
+			[
+				"get",
+				"get_object\tfunction"
+			],
+			[
+				"img",
+				"img_show\tfunction"
+			],
+			[
+				"raw_",
+				"raw_photo_folder_path\tstatement"
+			],
+			[
+				"co",
+				"contours"
+			],
+			[
+				"inpt",
+				"input_excel_database\tfunction"
+			],
+			[
+				"fil",
+				"filepaths\tstatement"
+			],
+			[
+				"off",
+				"off_combination\tstatement"
+			],
+			[
+				"result",
+				"result_schedules\tstatement"
+			],
+			[
+				"ass",
+				"asssessments\tstatement"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"p",
+				"prettify"
+			],
+			[
+				"find",
+				"find_all"
+			],
+			[
+				"conte",
+				"container-fluid"
+			],
+			[
+				"tag",
+				"tag_id\tparam"
+			],
+			[
+				"content",
+				"content_id\tparam"
+			],
+			[
+				"reso",
+				"resource_id"
+			],
+			[
+				"input",
+				"input_excel_database\tfunction"
+			],
+			[
+				"id_",
+				"id_img\tstatement"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"upade",
+				"update_resource"
+			],
+			[
+				"mian",
+				"main_classes"
+			],
+			[
+				"native",
+				"native_learned"
+			],
+			[
+				"number",
+				"number_of_lessons"
+			],
+			[
+				"file",
+				"filenames\tstatement"
+			],
+			[
+				"nt",
+				"ntparttime"
+			],
+			[
+				"main",
+				"main_classes"
+			],
+			[
+				"up",
+				"upload"
+			],
+			[
+				"com",
+				"combinations"
+			],
+			[
+				"incr",
+				"increase_native_lesson_number"
+			],
+			[
+				"all",
+				"class_teacher_allocations\tstatement"
+			],
+			[
+				"less",
+				"lesson_time"
+			],
+			[
+				"start",
+				"startswith"
+			],
+			[
+				"num",
+				"number_of_days_off"
+			],
+			[
+				"les",
+				"lesson_times"
+			],
+			[
+				"lesson",
+				"lesson_time"
+			],
+			[
+				"time",
+				"lesson_times"
+			],
+			[
+				"cl",
+				"class\tNew Class"
+			],
+			[
+				"we",
+				"week_num"
+			],
+			[
+				"class",
+				"class_code"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "auto_slides.py",
+			"settings":
+			{
+				"buffer_size": 10379,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/minhthienk/Desktop/[TUYỂN DỤNG INS ENGLISH]",
+			"settings":
+			{
+				"buffer_size": 2157,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/JavaScript & Coffeescript Build Systems/xJs.sublime-build",
+					""
+				],
+				[
+					"Packages/JavaScript & Coffeescript Build Systems/xJs.sublime-build",
+					"Compile"
+				],
+				[
+					"Packages/JavaScript & Coffeescript Build Systems/xJs.sublime-build",
+					"Harmony"
+				]
+			],
+			[
+				"Packages/JavaScript & Coffeescript Build Systems/xJs.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/User/Python3.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"virtual",
+				"Virtualenv: Activate"
+			],
+			[
+				"vir",
+				"Virtualenv: Activate"
+			],
+			[
+				"vi",
+				"Virtualenv: Activate"
+			],
+			[
+				"Package Control: git",
+				"Package Control: Install Package"
+			],
+			[
+				"virtua",
+				"Virtualenv: New"
+			],
+			[
+				"envi",
+				"Virtualenv: Activate"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"tr",
+				"Terminus: Close"
+			],
+			[
+				"termi",
+				"Terminus: Close"
+			],
+			[
+				"Package Control: rev",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ints",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal View: Palette Commands"
+			],
+			[
+				"ter",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"terminus",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"terminus: ",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insatll",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install\t",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 346.0,
+		"history":
+		[
+			"print('hello')",
+			"hello"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/media/minhthienk/Data4/Coding Projects/topkiddo-slides"
+	],
+	"file_history":
+	[
+		"/media/minhthienk/Data4/Coding Projects/nofreeze/nofreeze.py",
+		"/media/minhthienk/Data4/Coding Projects/ins - Coding Projects/Full Screen Message/fullscreenmsg.py",
+		"/home/minhthienk/Desktop/[TUYỂN DỤNG INS ENGLISH]",
+		"/media/minhthienk/Data4/Coding Projects/nofreeze/nofreeze.desktop",
+		"/usr/share/applications/gnome-keyboard-panel.desktop",
+		"/home/minhthienk/Desktop/UniKeyNT.desktop",
+		"/usr/share/applications/python2.7.desktop",
+		"/media/minhthienk/Data4/Coding Projects/killpython/killpython.desktop",
+		"/usr/share/applications/cinnamon-control-center.desktop",
+		"/usr/share/applications/google-chrome.desktop",
+		"/media/minhthienk/Data4/Coding Projects/killpython/killpython.py",
+		"/home/minhthienk/Desktop/nofreeze.py",
+		"/media/minhthienk/Data4/Google Drive/rclone_gdrive.py",
+		"/media/minhthienk/Data4/Text File",
+		"/home/minhthienk/.gdfuse/default/config",
+		"/media/minhthienk/Data4/Coding Projects/topkiddo-slides/auto_slides.py",
+		"/home/minhthienk/Desktop/resources.config.json",
+		"/home/minhthienk/Desktop/lession.config.json",
+		"/media/minhthienk/Data4/Coding Projects/online-english-teacher/Note.txt",
+		"/home/minhthienk/Desktop/autoscale.py",
+		"/media/minhthienk/Data4/Coding Projects/others/Python/get_paths/get_paths.py",
+		"/media/minhthienk/Data4/Coding Projects/others/Python/html_process.py",
+		"/home/minhthienk/Desktop/test.py",
+		"/home/minhthienk/Desktop/Work Notes.txt",
+		"/home/minhthienk/.thunderbird/94xj44t6.default/chrome/userContent.css ",
+		"/home/minhthienk/.thunderbird/94xj44t6.default/chrome/userChrome.css",
+		"/media/minhthienk/Data4/TOPKIDDO/_Note.txt",
+		"/home/minhthienk/Desktop/Tasks.csv",
+		"/home/minhthienk/Desktop/MyTasks.csv",
+		"/home/minhthienk/Desktop/test.csv",
+		"/media/minhthienk/Data4/Coding Projects/topkiddo-upload/topkiddo.py",
+		"/home/minhthienk/Desktop/runmyscript.sh",
+		"/home/minhthienk/nofreeze.py",
+		"/media/minhthienk/Data2/Coding Projects/ins-scheduler/ins-scheduler/input_excel.py",
+		"/usr/lib/python3.8/random.py",
+		"/E/Coding Projects/ins-scheduler/ins-scheduler/input.py",
+		"/media/minhthienk/Data1/Coding Projects/ins-scheduler/ins-scheduler/data.xlsx",
+		"/media/minhthienk/Data1/Google Drive/rclone_gdrive.py",
+		"/media/minhthienk/Data1/Coding Projects/ins-scheduler/ins-scheduler/schedule.py",
+		"/media/minhthienk/Data1/Coding Projects/ins-scheduler/ins-scheduler/class_list.html",
+		"/media/minhthienk/Data1/Coding Projects/ins-scheduler/ins-scheduler/curl test.py",
+		"/home/minhthienk/.local/lib/python3.8/site-packages/js2py/base.py",
+		"/media/minhthienk/Data1/Coding Projects/ins-scheduler/ins-scheduler/test.py",
+		"/media/minhthienk/Data1/Coding Projects/ins-scheduler/ins-scheduler/topkiddo.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/Autoit/Get Comment/comment.au3",
+		"/media/minhthienk/Data1/Coding Projects/ins_scheduler/ins_scheduler/ins_scheduler.sublime-project",
+		"/media/minhthienk/Data1/Coding Projects/django-learn/mysite/blog/templates/blog/post.html",
+		"/media/minhthienk/Data1/Coding Projects/django-learn/mysite/blog/templates/blog/blog.html",
+		"/media/minhthienk/Data1/Coding Projects/django-learn/mysite/home/templates/pages/base.html",
+		"/media/minhthienk/Data1/Coding Projects/ins_scheduler/schedule.py",
+		"/media/minhthienk/Data1/Coding Projects/django-learn/mysite/blog/models.py",
+		"/media/minhthienk/Data1/Coding Projects/ins_scheduler/test.py",
+		"/media/minhthienk/Data1/Coding Projects/ins_scheduler/Chương trình học lớp PCH-ST4C2-021220_sheet_program",
+		"/media/minhthienk/Data1/Coding Projects/django-learn/mysite/blog/views.py",
+		"/media/minhthienk/Data1/Coding Projects/django-learn/mysite/blog/admin.py",
+		"/media/minhthienk/Data1/Coding Projects/django-learn/mysite/blog/urls.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/blog/models.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/blog/forms.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/home/forms.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/blog/urls.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/home/urls.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/mysite/settings.py",
+		"/home/minhthienk/Desktop/cruisevacationtemplate/restaurant.html",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/home/views.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/home/templates/pages/login.html",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/home/admin.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/home/templates/pages/register.html",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/home/models.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/blog/views.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/home/templates/pages/base.html",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/blog/templates/blog/post.html",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/blog/templates/blog/blog.html",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/mysite/urls.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/blog/migrations/0002_post_image.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/blog/apps.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/blog/templates/blog/error.html",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/blog/admin.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/home/templates/pages/contact.html",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/home/templates/pages/home.html",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/blog/migrations/0001_initial.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/bootstrap-5.0.0-beta2-dist/js/bootstrap.esm.js",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/db.sqlite3",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/note.txt",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/django_learn.sublime-project",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/manage.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/polls/tests.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/polls/views.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/polls/urls.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/mysite/django_cmd.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/django_cmd.py",
+		"/media/minhthienk/Data1/Google Drive/# INS ENGLISH/Coding Projects/Schedule/schedule.py",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/django_learn/hello.py",
+		"/home/minhthienk/.local/lib/python3.8/site-packages/numba/core/dispatcher.py",
+		"/home/minhthienk/Desktop/Javascript Learning/Demo Web.html",
+		"/home/minhthienk/Desktop/Phước Hưng's Initial Project.html",
+		"/home/minhthienk/Desktop/Lesson Planning _ Trello.html",
+		"/home/minhthienk/beeware-tutorial/helloworld/src/helloworld/app.py",
+		"/home/minhthienk/beeware-tutorial/helloworld/src/helloworld/__main__.py",
+		"/media/minhthienk/Data1/Linux-Window/note.txt",
+		"/media/minhthienk/Data1/Linux-Window/note 2.txt",
+		"/media/minhthienk/Data1/Linux-Window/note bai hoc.txt",
+		"/media/minhthienk/Data1/Linux-Window/note cuoc hop",
+		"/media/minhthienk/Data1/Linux-Window/note workshop.txt",
+		"/home/minhthienk/Downloads/3d0d7e5fb2ce288813306e4d4636395e047a3d28",
+		"/media/minhthienk/Data1/rclone_gdrive.py",
+		"/media/minhthienk/Data1/centeronline.py",
+		"/media/minhthienk/Data1/note.txt",
+		"/media/minhthienk/Data1/SK3B3 chăm sóc phụ huynh ngày 15 11",
+		"/media/minhthienk/Data1/note workshop.txt",
+		"/media/minhthienk/Data1/Google Drive/# INS ENGLISH/INS Classes/Super Teens 4/Unit 9 (Page 54 55)/Lesson Content.txt",
+		"/media/minhthienk/Data1/Google Drive/# INS ENGLISH/INS Classes/Super Teens 4/Review Unit 6-10/Lesson Content.txt",
+		"/home/minhthienk/Desktop/auto_upload/softAnhHung.py",
+		"/home/minhthienk/Desktop/softAnhHung.py",
+		"/media/minhthienk/Data1/Google Drive/# INS ENGLISH/Coding/test.py",
+		"/media/minhthienk/Data1/Google Drive/# INS ENGLISH/Coding/schedule.py",
+		"/usr/lib/python3/dist-packages/requests/models.py",
+		"/home/minhthienk/Desktop/Quy trình dịch vụ INS.txt",
+		"/home/minhthienk/Downloads/Quy-trình-dịch-vụ-INS.txt",
+		"/media/minhthienk/Data1/Google Drive/3. Coding/bot/lib/corpus_builder.py",
+		"/home/minhthienk/Desktop/New Release INS Dec2020",
+		"/media/minhthienk/Data1/Google Drive/# INS ENGLISH/INS Classes/Super Teens 1/Unit 9 - My Day - Page 60 61/Lesson Content.txt",
+		"/media/minhthienk/Data1/Google Drive/# INS ENGLISH/INS Classes/Super Teens 1/Unit 9 - My Day - Page 58 59/Lesson Content.txt",
+		"/home/minhthienk/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/minhthienk/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/minhthienk/Desktop/updater-script",
+		"/media/minhthienk/Data1/Google Drive/# INS ENGLISH/INS Classes/Super Teens 1/Unit 7 (46-47)/Lesson Content.txt",
+		"/tmp/kite_tutorial.py"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"numpy",
+			"draw",
+			"\"",
+			"\t",
+			"        ",
+			"\t",
+			"\\n",
+			" \\n",
+			"\\n",
+			"\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"\\t\\t\\t",
+			"\\n",
+			"\\t\\t\\t",
+			"\\\\\\n",
+			"\\n",
+			"\\\\\\n",
+			"\\t\\\\",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "auto_slides.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8157,
+								8157
+							]
+						],
+						"settings":
+						{
+							"complete_all_parameters": false,
+							"complete_parameters": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3643.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/minhthienk/Desktop/[TUYỂN DỤNG INS ENGLISH]",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 170.0
+	},
+	"output.exec":
+	{
+		"height": 204.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.project_environment_log":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"project": "topkiddo-slides.sublime-project",
+	"replace":
+	{
+		"height": 102.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
