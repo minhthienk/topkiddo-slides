@@ -183,22 +183,39 @@ def find_screen_contour(img):
 
 
 def mask_white(hsv):
-    mask = cv2.inRange(hsv, (0, 0, 1), (180, 20, 255)) # detect white screen
+    mask = cv2.inRange(hsv, (0, 0, 200), (180, 20, 255)) # detect white screen
     return mask
 
 
 
 def get_object_and_main_color(img_pil): 
     img = np.array(img_pil)
-    img_temp = np.array(img_pil)
     img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR) 
+
+    # check if the footer is vector stock => crop
+    BLUE = 0
+    REF_BLUE_VAL = 36
+    water_mark_height = 0
+    for y in range(1, img.shape[0]+1):
+        blue_val = img[img.shape[0]-y, 0, BLUE]
+        if not (blue_val>=REF_BLUE_VAL*0.8 and blue_val<=REF_BLUE_VAL*1.2):
+            water_mark_height = y-1
+            break
+    img = img[0:img.shape[0]-water_mark_height, 0:img.shape[1]] # crop
+    img_show('crop water mark footer',img)
+
+
+
+    # add white border to top and bottom to make sure the object does not touch the edge
+    img = cv2.copyMakeBorder(img,30,30,30,30,cv2.BORDER_CONSTANT,value=[255,255,255])
+    # add black border to detect contours
     img = cv2.copyMakeBorder(img,30,30,30,30,cv2.BORDER_CONSTANT,value=[0,0,0])
 
     screen_contour = find_screen_contour(img)
     x,y,w,h = cv2.boundingRect(screen_contour)
     img = img[y+1:y+h-2, x+1:x+w-2]
 
-    contours = find_contours(img_temp)
+    contours = find_contours(img)
     img1 = draw_all_contours(img, contours, edge_num=None, minimun_area=None)
     img_show('find all contours',img1)
     # Concatenate all contours
@@ -269,10 +286,10 @@ def resize_photo(src_path, des_path, border=False, add_word=''):
             if border==True:
                 # get object, do it 2 times to reduce noice
                 obj, main_color_rgb = get_object_and_main_color(image)
-                print('object size 1: ', obj.size)
+                #print('object size 1: ', obj.size)
                 obj = ImageOps.expand(obj,border=OFFSET,fill='white') # add white border to object to repeat the object detectiion
                 obj, main_color_rgb = get_object_and_main_color(obj)
-                print('object size 2: ', obj.size)
+                #print('object size 2: ', obj.size)
 
                 # resize object to fit the frame
                 obj_size = obj.size
@@ -294,7 +311,7 @@ def resize_photo(src_path, des_path, border=False, add_word=''):
                 # resize object to new size
                 obj = obj.resize(new_obj_size)
                 obj = ImageOps.expand(obj,border=OFFSET,fill='white')
-                print('object size 3: ', obj.size)
+                #print('object size 3: ', obj.size)
 
                 # handle adding word and IPA
                 if add_word=='':
@@ -329,7 +346,7 @@ def resize_photo(src_path, des_path, border=False, add_word=''):
 
             slide = slide.convert('RGB')
             slide.save(des_path, image.format)
-    slide.show()
+    #slide.show()
 
 
 def draw_word(text, main_color_rgb):
@@ -373,31 +390,29 @@ def create_auto_resize_photos(df, raw_photo_names,
     for index, row in df.iterrows():
         word  = row['word'].lower()
         if not row['is_passed']:
-            word_raw_photo_names = list(filter(lambda x: re.search(r'^.*'+word+'.*$', x, re.I) , raw_photo_names))
+            word_raw_photo_names = list(filter(lambda x: re.search(r'^.*'+word + ' ' + '.*$', x, re.I) , raw_photo_names))
 
-            for photo_name in word_raw_photo_names:
-                if '_temp.' in photo_name: continue
+            for src_photo_name in word_raw_photo_names:
+                if '_temp.' in src_photo_name: continue
 
                 # check if the photo is "1" => repeat 2 times, one for norma slide, one for word and phonics added
-                if '1' in photo_name: 
+                if '1' in src_photo_name: 
                     loop_number = 2
                 else:
                     loop_number = 1
 
+                src_path = raw_photo_folder_path  + src_photo_name
                 # for loop in case the photo is 1
-                for loop in range(0,loop_number):
-
-
-                    src_path = raw_photo_folder_path  + photo_name
+                for loop in range(1,loop_number+1):
 
                     # photo name in destination
                     if loop==2: # if loop the photo 1 the second time (time for word and phonics added)
-                        photo_name = re.sub(r'\..*$', '1.jpg', photo_name.replace(word, word + ' - img 1 - co phien am'))
+                        des_photo_name = re.sub(r'\..*$', '.jpg', src_photo_name.lower().replace(word.lower() + ' 1', word.lower() + ' - img 1 - co phien am'))
                     else:
-                        photo_name = re.sub(r'\..*$', '.jpg', photo_name.replace(word, word + ' - img'))
+                        des_photo_name = re.sub(r'\..*$', '.jpg', src_photo_name.lower().replace(word.lower(), word.lower() + ' - img'))
 
                     # create destination path from photo name and folder path
-                    des_path = auto_resize_folder_path + photo_name
+                    des_path = auto_resize_folder_path + des_photo_name
 
 
                     # add white border (padding) to photo 1 and 2
@@ -413,14 +428,13 @@ def create_auto_resize_photos(df, raw_photo_names,
                         add_word = ''
 
                     # check if the photo is already in QC passed folder
-                    if photo_name not in passed_photo_names:
+                    if des_photo_name not in passed_photo_names:
                         try:
                             resize_photo(src_path, des_path, add_border, add_word)
                         except Exception as e:
                             print('>>>>>>>>>>>>>>>>> ERROR - ', word, ': ', e)
-                            raise e
                     else:
-                        print(photo_name, ': already in QC passed')
+                        print(des_photo_name, ': already in QC passed')
 
-        print(word, '=> done')
+            print(word, '=> done')
 
