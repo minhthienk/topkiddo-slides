@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"BAS",
+				"BASE_HEIGHT"
+			],
+			[
+				"base",
+				"BASE_FRAME"
+			],
+			[
+				"BASE",
+				"BASE_WIDTH"
+			],
+			[
+				"reize",
+				"resizeimage"
+			],
+			[
+				"img",
+				"img_show"
+			],
+			[
 				"draw",
 				"draw_word\tfunction"
 			],
@@ -18,10 +38,6 @@
 			[
 				"get",
 				"get_object\tfunction"
-			],
-			[
-				"img",
-				"img_show\tfunction"
 			],
 			[
 				"raw_",
@@ -176,19 +192,19 @@
 	"buffers":
 	[
 		{
-			"file": "auto_slides.py",
+			"file": "auto_slides_lib.py",
 			"settings":
 			{
-				"buffer_size": 10379,
+				"buffer_size": 12927,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/minhthienk/Desktop/[TUYỂN DỤNG INS ENGLISH]",
+			"file": "main.py",
 			"settings":
 			{
-				"buffer_size": 2157,
+				"buffer_size": 873,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -290,8 +306,52 @@
 		"selected_items":
 		[
 			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"ter",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"env",
+				"Virtualenv: Activate"
+			],
+			[
+				"termi",
+				"Terminus: Reset"
+			],
+			[
+				"terminus",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"requi",
+				"requirements.txt: Clear Cache"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
 				"virtual",
 				"Virtualenv: Activate"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Controlin",
+				"Package Control: Install Package"
 			],
 			[
 				"vir",
@@ -314,15 +374,7 @@
 				"Virtualenv: Activate"
 			],
 			[
-				"Package Control: ins",
-				"Package Control: Install Package"
-			],
-			[
 				"tr",
-				"Terminus: Close"
-			],
-			[
-				"termi",
 				"Terminus: Close"
 			],
 			[
@@ -342,23 +394,11 @@
 				"Preferences: Terminal View: Palette Commands"
 			],
 			[
-				"ter",
-				"Terminal View: Open Bash Terminal"
-			],
-			[
-				"terminus",
-				"Terminus: Open Default Shell in Panel"
-			],
-			[
 				"terminus: ",
 				"Terminus: Toggle Panel"
 			],
 			[
 				"Package Control: insta",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: instal",
 				"Package Control: Install Package"
 			],
 			[
@@ -394,7 +434,7 @@
 	},
 	"console":
 	{
-		"height": 346.0,
+		"height": 266.0,
 		"history":
 		[
 			"print('hello')",
@@ -412,13 +452,16 @@
 	},
 	"expanded_folders":
 	[
-		"/media/minhthienk/Data4/Coding Projects/topkiddo-slides"
+		"/run/media/minhthienk/Data/Coding Projects/topkiddo-slides"
 	],
 	"file_history":
 	[
+		"/run/media/minhthienk/Data/Coding Projects/topkiddo-slides/env/lib/python3.9/site-packages/PIL/Image.py",
+		"/run/media/minhthienk/Data/Coding Projects/topkiddo-slides/requirements.txt",
+		"/home/minhthienk/.config/sublime-text-3/Packages/Terminality/Terminality.sublime-settings",
+		"/home/minhthienk/Desktop/[TUYỂN DỤNG INS ENGLISH]",
 		"/media/minhthienk/Data4/Coding Projects/nofreeze/nofreeze.py",
 		"/media/minhthienk/Data4/Coding Projects/ins - Coding Projects/Full Screen Message/fullscreenmsg.py",
-		"/home/minhthienk/Desktop/[TUYỂN DỤNG INS ENGLISH]",
 		"/media/minhthienk/Data4/Coding Projects/nofreeze/nofreeze.desktop",
 		"/usr/share/applications/gnome-keyboard-panel.desktop",
 		"/home/minhthienk/Desktop/UniKeyNT.desktop",
@@ -540,14 +583,11 @@
 		"/media/minhthienk/Data1/Google Drive/# INS ENGLISH/INS Classes/Super Teens 1/Unit 9 - My Day - Page 60 61/Lesson Content.txt",
 		"/media/minhthienk/Data1/Google Drive/# INS ENGLISH/INS Classes/Super Teens 1/Unit 9 - My Day - Page 58 59/Lesson Content.txt",
 		"/home/minhthienk/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
-		"/home/minhthienk/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
-		"/home/minhthienk/Desktop/updater-script",
-		"/media/minhthienk/Data1/Google Drive/# INS ENGLISH/INS Classes/Super Teens 1/Unit 7 (46-47)/Lesson Content.txt",
-		"/tmp/kite_tutorial.py"
+		"/home/minhthienk/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings"
 	],
 	"find":
 	{
-		"height": 54.0
+		"height": 50.0
 	},
 	"find_in_files":
 	{
@@ -561,6 +601,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"width_space",
+			"show",
+			"180, 5, 255",
+			"cover",
+			"BASEFRAME",
+			"img_with_border",
 			"numpy",
 			"draw",
 			"\"",
@@ -578,6 +624,11 @@
 		"regex": true,
 		"replace_history":
 		[
+			"space_width",
+			"180, 10, 255",
+			"slide",
+			"BASE_FRAME",
+			"object_with_border",
 			"",
 			"\\n",
 			"",
@@ -594,7 +645,7 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
@@ -605,19 +656,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "auto_slides.py",
+					"file": "auto_slides_lib.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10379,
+						"buffer_size": 12927,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8157,
-								8157
+								8070,
+								8070
 							]
 						],
 						"settings":
@@ -629,7 +680,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3643.0,
+						"translation.y": 3799.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -637,24 +688,26 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/home/minhthienk/Desktop/[TUYỂN DỤNG INS ENGLISH]",
+					"file": "main.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2157,
+						"buffer_size": 873,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								446,
-								446
+								873,
+								873
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 168.0,
@@ -668,7 +721,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 37.0
 	},
 	"input":
 	{
@@ -725,7 +778,7 @@
 	"project": "topkiddo-slides.sublime-project",
 	"replace":
 	{
-		"height": 102.0
+		"height": 91.0
 	},
 	"save_all_on_build": true,
 	"select_file":
